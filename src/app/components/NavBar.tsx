@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav className='bg-inherit p-6 sticky top-0 drop-shadow-xl z-9'>
         <div className='prose prose xl mx-auto flex justify-between flex-col sm:flex-row text-black/70 font-sans text-xl font-semibold'>
             
-            <Link href="/" className='no-underline hover:text-black/90 mt-2'>hoME</Link>
+            <Link href="/" className='no-underline hover:text-black/90 mt-2'>HOME</Link>
             <Link href="/" className='no-underline hover:text-black/90 mt-2'>SERVICES</Link>
             <Link href="/" className='no-underline hover:text-black/90 mt-2'>CONTACT</Link>
             <Link href="/" className='no-underline hover:text-black/90 mt-2'>MEMBERSHIP</Link>
