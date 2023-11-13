@@ -3,9 +3,20 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='flex justify-center p-10'>
+    <div className='py-10 relative w-full min-h-20'>
+
+
+      <Image src="/loil-cover.png" alt='Loil cover' 
+      sizes="100vw"
+      style={{
+        width: '100%',
+        height: 'auto',
+      }}
+      width={600}
+      height={300}
+      />
+
       
-      <h1 className='text-black text-xl p-10'>Content goes here</h1>
     </div>
     
   )
