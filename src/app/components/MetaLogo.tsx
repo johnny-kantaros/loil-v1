@@ -7,7 +7,14 @@ export default function MetaLogo() {
     <div>
       <div className="flex justify-center p-5 bg-loil-light w-full min-h-15"></div>
       <div className="flex pl-20 py-10 top-0 z-10">
-        <Image src="/Loil-logo.jpeg" alt="Loil logo" width={200} height={100} />
+        <Link href="/" className="no-underline hover:text-black/90">
+          <Image
+            src="/Loil-logo.jpeg"
+            alt="Loil logo"
+            width={200}
+            height={100}
+          />
+        </Link>
       </div>
 
       <div className="flex flex-row items-center">
@@ -19,7 +26,7 @@ export default function MetaLogo() {
 
         <div className="basis-4/12">
           <div className="mr-20 prose prose xl mx-auto flex justify-between flex-col sm:flex-row text-black/70 font-sans text-xl font-medium">
-            <Link href="/" className="no-underline hover:text-black/90">
+            <Link href="/team" className="no-underline hover:text-black/90">
               Our Team
             </Link>
             <Link href="/" className="no-underline hover:text-black/90">
